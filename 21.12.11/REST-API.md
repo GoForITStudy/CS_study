@@ -433,12 +433,12 @@ db = client.dbxxit
 def home():
    return render_template('index.html')
 
+## API 역할을 하는 부분
 @app.route('/memo', methods=['GET'])
 def listing():
     articles = list(db.articles.find({}, {'_id':False}))
     return jsonify({'all_articles':articles})
 
-## API 역할을 하는 부분
 @app.route('/memo', methods=['POST'])
 def saving():
     url_receive = request.form['url_give']
