@@ -402,7 +402,7 @@ GET /playlists
 DELETE /playlists/{playlist_id}
 ```
 
-## **Response Code**
+## Response Code
 
 `200`
 
