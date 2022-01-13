@@ -1,5 +1,6 @@
-# 프로세스 간 통신 (IPC, Inter-Process Communication)
+# 프로세스 간 동기화
 
+# 프로세스 간 통신 (IPC, Inter-Process Communication)
 > 같은 컴퓨터 내에 있는 프로세스 뿐만 아니라 네트워크로 연결된 다른 컴퓨터에 있는 프로세스와의 통신도 포함된다.
 
 ### 프로세스 간 통신의 종류
