@@ -59,3 +59,13 @@
 ### **PC Register 를 스레드마다 독립적으로 할당하는 이유**
 
 PC 값은 스레드가 명령어의 어디까지 수행하였는지를 나타나게 된다. 스레드는 CPU 를 할당받았다가 스케줄러에 의해 다시 선점당한다. 그렇기 때문에 명령어가 연속적으로 수행되지 못하고 어느 부분까지 수행했는지 기억할 필요가 있다. 따라서 PC 레지스터를 독립적으로 할당한다.
+
+<br/><br/>
+
+---
+
+**참고**
+
+[CS-study/contents/operating-system at main · Seogeurim/CS-study](https://github.com/Seogeurim/CS-study/tree/main/contents/operating-system)
+
+[Interview_Question_for_Beginner/OS at master · JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/OS)
