@@ -223,3 +223,18 @@ void printPostorder(Node node) {
 ```
 
 - 방문 순서 : 1 5 3 7 11 9 6
+
+
+ 
+
+## Reference
+
+- https://leetcode.com/explore/learn/card/data-structure-tree/
+- https://leetcode.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/
+- 윤성우, 『윤성우의 열혈 자료구조』, 오렌지미디어(2013), p.290 ~ p.319
+- 게일 라크만 맥도웰, 『코딩 인터뷰 완전 분석』, 프로그래밍인사이트(2019), p.144 ~ p.145
+- https://www.geeksforgeeks.org/binary-tree-set-1-introduction/
+- https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+- https://adrianmejia.com/data-structures-for-beginners-trees-binary-search-tree-tutorial/
+- https://medium.com/@konduruharish/binary-search-tree-in-typescript-and-c-25fa5107cc5d
+- https://towardsdatascience.com/5-types-of-binary-tree-with-cool-illustrations-9b335c430254
