@@ -1,7 +1,6 @@
 # CS_study
 스터디 내용을 기록합니다.
-
-## ![스터디 일정 노션 페이지](https://xxit.notion.site/xxit/CS-32485a0bb3ef4f0d85251eb1e467c880)
+- [스터디 일정 노션 페이지](https://xxit.notion.site/xxit/CS-32485a0bb3ef4f0d85251eb1e467c880)
 
 ## 2021.12.11~
 (스터디 2기 + 3기(2022.02.19 시작))
