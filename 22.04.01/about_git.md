@@ -2,6 +2,14 @@
 [공식문서](https://git-scm.com/doc)  
 [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/intro/intro1_3.html)
 
+## git 개념
+### 버전 관리?
+파일의 변화를 시간에 따라 기록했다가 필요한 경우 특정 시점의 버전을 다시 꺼내올 수 있는 시스템
+- 중앙집중식 버전 관리(CVCS)
+  - 중앙 서버에 문제가 생기면 협업 불가
+- **분산 버전 관리 시스템**(DVCS)
+  - 로컬 저장소가 원격 저장소의 파일, 히스토리 모두 복제 -> 백업 유리
+
 ## git 기본
 ### Repository: local - remote
 
@@ -35,6 +43,8 @@
 - 원격에 이미 올라간 커밋을 바꾸고 싶다면
     - 커밋 취소하기: `git reset --soft HEAD^`
     - 커밋 되돌리기: `git revert HEAD^` -> 커밋을 되돌린 것이 기록됨
+      - `HEAD^`: 바로 이전 커밋
+      - `HEAD~n`: n번째 전 커밋 (HEAD~1==HEAD^)
     - 커밋 덮어쓰기: `git commit --amend` 
 
 ### Branch
