@@ -1,6 +1,6 @@
 # Virtual Memory 가상 메모리
 
-## 스레싱 threshing
+## 스레싱 thrashing
 
 프로세스의 원활한 수행에 필요한 최소한의 page frame 수를 할당받지 못한 경우에 발생한다.  
 잦은 페이지 부재가 발생해서 하드 디스크의 입출력이 많아지므로 작업이 멈춘 것 같은 상태가 된다.
@@ -11,7 +11,7 @@
 - 특히 과거 OS는 MPD(degree of MultiProgramming)를 높여야 한다고 판단해 또 다른 프로세스를 시스템에 추가한다.
   - 이로 인해 프로세스 당 할당된 frame의 수가 더욱 감소한다.
 - 메모리의 크기가 일정할 경우 멀티프로그램의 수와 밀접한 관계가 있다. 즉, 멀티프로그래밍의 정도가 너무 높으면 스레싱이 발생한다.
-  <img src='./image/threshing.jpg' width="600px">
+  <img src='./image/thrashing.jpg' width="600px">
 
 ## 프레임 할당
 
@@ -24,24 +24,28 @@
 - Loop을 구성하는 page 들은 함께 할당되는 것이 유리하다.
   - 최소한의 할당이 없다면 매 순회마다 page fault가 발생할 수 있다.
 
-## Global/Local replacement
-
-### Global replacement
-
-Page replacement 가 일어날 때, 현재 프로세스 페이지 외, 다른 프로세스의 페이지가 Victim 이 될 수 있다.
-우선 순위가 높은 프로세스에게 작은 프로세스를 희생하면서 할당된 프레임 수를 늘려줄 수 있다.
-즉, 프로세스의 성능이 외부 상황에 따라 변한다.
-
-### Local replacement
-
-Page replacement 가 일어날 때, 현재 프로세스 페이지 내에서만 Victim 페이지가 선택된다.
-현재는 대부분 Global Replacement 를 사용한다.
-
 ### Allocation Scheme 할당 방식
 
 - Equal allocation 균등 할당 : 모든 프로세스에 똑같은 갯수의 frame 할당
 - Proportional allocation 비례 할당 : 프로세스의 크기에 비례하여 frame 할당
 - Priority allocation : 프로세스의 priority에 따라 다르게 frame 할당
+
+## Global/Local replacement
+
+### Global replacement
+
+- Page replacement 가 일어날 때, 현재 프로세스가 아닌 다른 프로세스의 페이지가 Victim 이 될 수 있다.
+- 우선 순위가 높은 프로세스에게 작은 프로세스를 희생하면서 할당된 프레임 수를 늘려줄 수 있다.
+- 즉, 프로세스 별 할당량을 조절하는 또 다른 방법이다.
+- FIFO, LRU, LFU 등의 알고리즘을 전역 교체로 사용할 수 있다.
+- Working set, PFF 알고리즘을 사용할 수 있다.
+- 현재 대부분 OS가 Global Replacement 를 사용한다.
+
+### Local replacement
+
+- Page replacement 가 일어날 때, 현재 프로세스에 할당된 프레임 내에서만 Victim 페이지가 선택된다.
+- FIFO, LRU, LFU 등의 알고리즘을 프로세스 별로 운영할 수 있다.
+- 균등 할당, 비례 할당, 우선순위 할당이 지역 교체에 해당한다.
 
 ## 정적 할당 static allocation
 
@@ -65,7 +69,7 @@ Page replacement 가 일어날 때, 현재 프로세스 페이지 내에서만 V
 
 작업 집합 모델은 위와 같은 지역성 이론을 바탕으로 하여 프로세스가 일정 시간동안 원활히 수행되기 위해서 한꺼번에 메모리에 올라야 하는 page들의 집합을 Working Set이라고 정의한다.
 
-- 작업 집합 모델을 이용해 threshing을 방지하고, MultiProgramming degree 또한 결정한다.
+- 작업 집합 모델을 이용해 thrashing을 방지하고, MultiProgramming degree 또한 결정한다.
 - 프로세스를 수행할 때, working set 전체가 메모리에 올라와 있지 않다면 프로세스에 할당된 모든 frame을 반납하고 swap out을 수행해 suspend 된다.
   - 즉, MPD를 줄이게 된다.
 
