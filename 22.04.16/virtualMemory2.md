@@ -74,6 +74,7 @@
   - 즉, MPD를 줄이게 된다.
 
 <img src='./image/workingset.jfif' width="600px">
+
 ### Working set window
 
 wsw 를 이용해 Working set을 결정할 수 있다.  
@@ -85,6 +86,7 @@ wsw 를 이용해 Working set을 결정할 수 있다.
 
 ## Page Fault Frequendy Scheme
 
+<img src='./image/pff.png' width="600px">
 페이지 부재 빈도를 활용하는 방식은 메모리에 적재할 페이지의 양을 동적으로 결정하는 방식이다.  
 페이지 부재 횟수를 기록하여 페이지 부재 비율을 계산하며, 설정된 페이지 부재 상한과 하한을 기준으로 프레임 할당 수를 결정한다.
 
