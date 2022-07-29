@@ -4,7 +4,10 @@
 
 | date     | presenter | subject       |
 | -------- | --------- | ------------- |
-|21.12.11|리버     |[디자인패턴](./synchronization.md)|
+21.09.23|전체|[client&server](./client-server-21.09.23/)
+21.10.02|하나|[REST_API](./rest-api-hanah.md)
+21.10.07|예영|[JWT_토큰 기반 인증](./jwt-auth-yeyeong.md)
+21.10.07|선영|[JWT_토큰 기반 인증](./jwt-auth-sunyeongJ.md)
 |21.12.11|자람   |[REST API](REST-API.md)|
 | 21.12.18| 타스      | [서비스워커](%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9B%8C%EC%BB%A4.md) |
 | 22.04.01| 레고       | [git](about_git.md) |

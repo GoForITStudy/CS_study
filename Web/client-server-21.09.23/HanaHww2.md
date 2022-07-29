@@ -1,11 +1,3 @@
-# 하나님 HanaHww2
-
-출처)
-
-[웹 프로그래밍(풀스택)](https://www.boostcourse.org/web316/lecture/16665/?isDesc=false)
-
-[아파치, NginX, 톰캣이 뭔가요? (+ 웹서버, WAS, 로드밸런싱, 프록시)](https://www.youtube.com/watch?v=Zimhvf2B7Es)
-
 # WAS(Web Application Server)
 
 - Apache Tomcat, guinicorn
@@ -135,6 +127,11 @@ Apache웹 서버는 Apache Software Foundation에서 개발한 웹서버로 오�
 
 ### CGI(Common Gateway Interface)
 
-> 공용 게이트웨이 인터페이스는 웹 서버 상에서 사용자 프로그램을 동작시키기 위한 조합이다. 존재하는 많은 웹 서버 프로그램은 CGI의 기능을 이용할 수 있다. 웹 서버 프로그램의 기능의 주체는 미리 준비된 정보를 이용자의 요구에 응답해 보내는 것이다. ([https://ko.wikipedia.org/wiki/공용_게이트웨이_인터페이스](https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9A%A9_%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4))
+> 공용 게이트웨이 인터페이스는 웹 서버 상에서 사용자 프로그램을 동작시키기 위한 조합이다. 존재하는 많은 웹 서버 프로그램은 CGI의 기능을 이용할 수 있다. 웹 서버 프로그램의 기능의 주체는 미리 준비된 정보를 이용자의 요구에 응답해 보내는 것이다. 
+  참고. [https://ko.wikipedia.org/wiki/공용_게이트웨이_인터페이스](https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9A%A9_%EA%B2%8C%EC%9D%B4%ED%8A%B8%EC%9B%A8%EC%9D%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
 > 
 - 웹 서버에서 동적인 프로그래밍 기능이 들어가는 서비스 방식, 컨벤션
+
+### 참고자료)
+- [웹 프로그래밍(풀스택)](https://www.boostcourse.org/web316/lecture/16665/?isDesc=false)
+- [아파치, NginX, 톰캣이 뭔가요? (+ 웹서버, WAS, 로드밸런싱, 프록시)](https://www.youtube.com/watch?v=Zimhvf2B7Es)
