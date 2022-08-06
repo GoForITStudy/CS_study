@@ -4,7 +4,8 @@
 
 “정점의 집합을 V, 간선의 집합을 E, 그리고 그래프를 G라고 했을 때, G = (V, E)이다.”
 
-![Untitled]("https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph.jpg")
+![Untitled]("https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph.jpg")https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph.jpg
+
 
 *V - 정점(vertex/node)
 
