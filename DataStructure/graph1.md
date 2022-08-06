@@ -40,15 +40,15 @@
 
 1. 무방향 그래프 : (n,n)을 따라 선을 그어 행렬을 둘로 나눴을 때 인접 행렬이 대각선에 대칭을 이루고 있다.
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph2.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph2.jpg)
 
 1. 방향 그래프  
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph3.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph3.jpg)
 
 1. 가중치 그래프 
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph4.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph4.jpg)
 
 ```java
 int[][] graph;// 2차원 배열로 표현
@@ -60,11 +60,11 @@ graph[정점][연결된 정점] = 1;
 
 1. 무방향 그래프
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph5.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph5.jpg)
 
 1. 방향 그래프  
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph6.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph6.jpg)
 
 ```java
 LinkedList<LinkedList<Integer>> graph;
@@ -78,7 +78,7 @@ graph.get(정점).add(연결된 정점);
 
 1. 가중치 그래프 
 
-![Untitled](https://github.com/yeGenieee/TIL/blob/master/data-structure/image/graph7.jpg)
+![Untitled](https://github.com/GoForITStudy/CS_study/blob/main/DataStructure/image/graph7.jpg)
 
 ```java
 class Edge {
