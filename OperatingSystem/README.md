@@ -16,4 +16,4 @@
 | 22.04.16| 하나      | [Virtual Memory2](virtualMemory2_hanah.md) |
 | 22.06.25 | 하나      | [RAID](./RAID_hanah.md) |
 | 22.07.02 | 하나      | [I/O 시스템 관리](./InputOutput_System_hanah.md) |
-| 22.08.19 | 우디빌리      | [프로세스와 스레드](./Process&Thread.md) |
+| 22.08.20 | 우디빌리      | [프로세스와 스레드](./Process&Thread.md) |
