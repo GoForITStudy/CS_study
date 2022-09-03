@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "6c21b450d6ce8120",
+    "type": "split",
+    "children": [
+      {
+        "id": "55ccd9a0968f720b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Web/JWT와 Spring Security.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a60ca2468a778920",
+    "type": "split",
+    "children": [
+      {
+        "id": "b00d3f2a65484d85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfcffaac7bb08918",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f0bbc7f002c9dec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec5afb124dd0a369",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af5c4a7a1d2db823",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed7d546329ca16ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34a0f9ac4902de62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Web/JWT와 Spring Security.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "556bbd6bb0454b24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web/JWT와 Spring Security.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7aab71e92677d8a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44d0de9a3630cc1e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web/JWT와 Spring Security.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "55ccd9a0968f720b",
+  "lastOpenFiles": [
+    "Web/jwt-auth-yeyeong.md",
+    "Web/JWT와 Spring Security.md",
+    "Web/JWT.md",
+    "Web/jwt-auth-sunyeongJ.md",
+    "Web/images/img_jwt.png",
+    "Web/README.md",
+    "README.md"
+  ]
+}

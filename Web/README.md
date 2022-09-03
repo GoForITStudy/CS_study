@@ -13,3 +13,4 @@
 | 22.04.01| 레고       | [git](about_git.md) |
 | 22.05.21 | 오키      | [Nginx로드밸런싱](./Nginx%20%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1.md) |
 | 22.09.03 | woodi      | [JWT](./JWT.md) |
+| 22.09.03 | 오키 | JWT 와 Spring Security |
