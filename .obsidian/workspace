@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "65f94b1ee63dc71b",
+    "id": "9207f56d92c3dc79",
     "type": "split",
     "children": [
       {
-        "id": "12d069eeca77568c",
+        "id": "0f29bc9db4bbc4bf",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -15,15 +15,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c2d9d4f9ebfaecd5",
+    "id": "0619f55118942e3d",
     "type": "split",
     "children": [
       {
-        "id": "678904cd9fc8df1c",
+        "id": "3169300b69ba37e1",
         "type": "tabs",
         "children": [
           {
-            "id": "97ba008102d2a489",
+            "id": "18127dfb16041831",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +31,7 @@
             }
           },
           {
-            "id": "2ab68abd9c60d5f5",
+            "id": "d5041f8586a9ab17",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "a873a96020a040e1",
+            "id": "9c96dc5310857f3b",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -61,15 +61,15 @@
     "collapsed": true
   },
   "right": {
-    "id": "c27a7006e19c3657",
+    "id": "97eea30f5f15d32e",
     "type": "split",
     "children": [
       {
-        "id": "18f035bbe7473118",
+        "id": "09ca9f5f84aa4f9d",
         "type": "tabs",
         "children": [
           {
-            "id": "989351449a9e0def",
+            "id": "fd46d2edb6208c4d",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "bad1b22007cf701e",
+            "id": "d891e891cd5c669d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -96,7 +96,7 @@
             }
           },
           {
-            "id": "f43ea4f7a4aa5617",
+            "id": "d4bd139df045804c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "8ec3871c965c9d83",
+            "id": "d73fc38e67ab33fb",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -121,8 +121,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97ba008102d2a489",
-  "lastOpenFiles": [
-    "무제노트.md"
-  ]
+  "active": "0f29bc9db4bbc4bf",
+  "lastOpenFiles": []
 }
