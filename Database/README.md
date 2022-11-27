@@ -13,3 +13,4 @@
 | 22. | 레고      | [데이터베이스 정규화](./normalization.md) |
 | 22.06.25 | 알고리즘알고싶따     | [SQL_Join](./SQL%20Join.md) |
 | 22.09.17 | 하나     | [Transaction](./transaction_hanah.md) |
+| 22.11.26 | 하나     | [index-mysql](./index-mysql-hana.md) |
