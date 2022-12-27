@@ -14,4 +14,4 @@
 | 22.06.25 | 알고리즘알고싶따     | [SQL_Join](./SQL%20Join.md) |
 | 22.09.17 | 하나     | [Transaction](./transaction_hanah.md) |
 | 22.11.26 | 하나     | [index-mysql](./index-mysql-hana.md) |
-| 22.12.24 | woodi     | [Concurrency_Control과_격리수준](./Concurrency_Control과_격리수준.md) |
+| 22.12.24 | 우디빌리     | [Concurrency_Control과_격리수준](./Concurrency_Control과_격리수준.md) |
