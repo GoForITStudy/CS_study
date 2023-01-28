@@ -1,4 +1,6 @@
-### 계층형 아키텍처의 문제점
+# 헥사고날 아키텍처
+
+## 계층형 아키텍처의 문제점
 <img width=500 src='https://user-images.githubusercontent.com/62924471/215233642-5546c44f-5b4c-4901-9643-b853daffbc98.png'>
 - 웹 계층은 도메인 계층을 의존하고, 도메인 계층은 영속성 계층을 의존하기 때문에 도메인 계층 입장에서 의존성이 비대칭적입니다.
     - DIP(의존 역전 원칙 : 객체는 저수준 모듈보다 고수준 모듈에 의존해야 한다는 원칙)를 적용해도 한계가 발생한다.
@@ -83,3 +85,8 @@
         1. entity를 model로 컨버팅
         2. model을 response로 컨버팅
     4. 웹계층
+
+### 참고 자료
+- https://mesh.dev/20210910-dev-notes-007-hexagonal-architecture/
+- http://dev.blog.sellmate.co.kr/post/%EA%B8%80%EB%A1%9C%EB%B2%8C-5%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%AC%EB%B7%B0/
+- https://zkdlu.tistory.com/4
