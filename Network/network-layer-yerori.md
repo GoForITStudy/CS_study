@@ -74,7 +74,7 @@
   ➡️ 사람이 보기 편하게(개발의 편의성) 하기 위해
 - 주소의 각 바이트를 십진수로 표현, 주소의 다른 바이트와 점으로 구분하는 **십진 표기법** 사용
 
-![Untitled](./images/IPv4_octet.png>)
+![Untitled](./images/IPv4_octet.png)
 
 ## 📕 IPv6
 
@@ -86,13 +86,13 @@
   - 각 자리는 네 자리의 16진수로 표현
   - 각 자릿수들은 콜론으로 구분하여 표기
 
-![Untitled](./images/IPv4_vs_IPv6.png>)
+![Untitled](./images/IPv4_vs_IPv6.png)
 
 ## 🖲️ 네트워크 클래스
 
 ---
 
-![Untitled](./images/network_class.png>)
+![Untitled](./images/network_class.png)
 
 - IPv4로는 턱없이 부족한 $2^{32}$(40억)개의 주소
 - 이미 구성된 인프라를 최대한 활용하기 위해 IPv4체계의 IP주소를 사용하는 **네트워크의 규모**에 따라 관리하기 쉽도록
